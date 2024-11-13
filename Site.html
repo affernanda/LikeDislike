@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionário do Mês</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Funcionário do Mês</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="employee-profile">
+            <img src="mulher-placeholder.png" alt="Foto do Funcionário" class="employee-photo">
+            <div class="employee-details">
+                <h2>Fernanda Oliveira</h2>
+                <p><strong>Cargo:</strong> Gerente de Vendas</p>
+                <div class="likeimg">
+                    <button onclick="incrementarLike('like1')"><img src="like.png" alt="like" class="likedislike"></button><p id="like1">0 Likes</p>
+                    <button onclick="incrementarDislike('dislike1')"><img src="dislike.png" alt="dislike" class="likedislike"></button><p id="dislike1">0 Dislikes</p>
+                </div>
+            </div>  
+        </section>
+            <section class="employee-profile">
+            <img src="homem-placeholder.jpg" alt="Foto do Funcionário" class="employee-photo">
+            <div class="employee-details">
+                <h2>Fernando Gomes</h2>
+                <p><strong>Cargo:</strong> Gerente de Marketing </p>
+                <div class="likeimg">
+                    <button onclick="incrementarLike('like2')"><img src="like.png" alt="like" class="likedislike"></button><p id="like2">0 Likes</p>
+                    <button onclick="incrementarDislike('dislike2')"><img src="dislike.png" alt="dislike" class="likedislike"></button><p id="dislike2">0 Dislikes</p>
+                </div>
+            </div>  
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+
+    <script src="Botao.js"></script>
+</body>
+</html>
